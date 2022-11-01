@@ -1,0 +1,13 @@
+include AUTHORS.md
+include CONTRIBUTING.md
+include HISTORY.md
+include LICENSE
+include README.md
+
+exclude Makefile
+exclude codecov.yml
+exclude requirements.txt
+exclude tox.ini
+
+recursive-include tests *
+recursive-exclude docs *
